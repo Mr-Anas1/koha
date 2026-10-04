@@ -1,7 +1,6 @@
 // app/page.js — Server Component (root page)
 import Nav              from '@/components/Nav';
 import Hero             from '@/components/Hero';
-import VslSection       from '@/components/VslSection';
 import ProblemSection   from '@/components/ProblemSection';
 import JourneySection   from '@/components/JourneySection';
 import WhySection       from '@/components/WhySection';
@@ -21,7 +20,6 @@ export default function Page() {
       <Nav />
       <main>
         <Hero />
-        <VslSection />
         <ProblemSection />
         <JourneySection />
         <WhySection />

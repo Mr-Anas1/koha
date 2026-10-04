@@ -3,42 +3,42 @@ import SpotlightCard from './SpotlightCard';
 
 const modules = [
   {
-    part: 'Part I',
-    title: 'Tailoring',
-    desc: 'Build a strong foundational skill — the craft behind every garment.',
+    part: 'PHASE 1',
+    title: 'Master Tailoring',
+    desc: '🔥 Build a strong foundational skill — the craft behind every garment',
     items: [
-      'Basic Tailoring Techniques',
-      'Stitching & Seams',
-      'Measurements & Patterns',
-      'Garment Construction',
-      'Intermediate to Advanced Techniques',
+      '✓ Basic Tailoring Techniques',
+      '✓ Professional Stitching & Seams',
+      '✓ Perfect Measurements & Patterns',
+      '✓ Complete Garment Construction',
+      '✓ Intermediate to Advanced Techniques',
     ],
     accent: false,
   },
   {
-    part: 'Part II',
+    part: 'PHASE 2',
     title: 'Fashion Designing',
-    desc: 'The creative and conceptual dimension of fashion — where your design voice emerges.',
+    desc: '🎨 The creative dimension — where your unique design voice emerges',
     items: [
-      'Fashion Illustration',
-      'Colour Wheel Theory',
-      'Body Types & Silhouettes',
-      'Mood & Theme Boards',
-      'Draping',
-      'Design Development',
+      '✓ Fashion Illustration Mastery',
+      '✓ Colour Wheel Theory',
+      '✓ Body Types & Silhouettes',
+      '✓ Mood & Theme Boards',
+      '✓ Professional Draping',
+      '✓ Design Development',
     ],
     accent: true,
   },
   {
-    part: 'Part III',
-    title: 'Boutique Management',
-    desc: 'Turn your craft into a real business with the right commercial foundations.',
+    part: 'PHASE 3',
+    title: 'Boutique Business',
+    desc: '💰 Turn your craft into a profitable business empire',
     items: [
-      'Business Management Fundamentals',
-      'Boutique Launch Roadmap',
-      'Pricing Your Work',
-      'Client Management',
-      'Building Your Brand',
+      '✓ Business Management Fundamentals',
+      '✓ Boutique Launch Roadmap',
+      '✓ Pricing Your Work For Profit',
+      '✓ Client Management Mastery',
+      '✓ Building Your Brand Empire',
     ],
     accent: false,
   },
@@ -49,9 +49,9 @@ export default function CurriculumSection() {
     <section className="curriculum-section" id="curriculum">
       <div className="container">
         <RevealWrapper className="curriculum__header">
-          <p className="label label--light">Everything inside the program</p>
+          <p className="label label--light">🎯 COMPLETE 100-DAY BLUEPRINT</p>
           <h2 className="section-title section-title--light">
-            What&apos;s Inside the<br /><em>100-Day Program?</em>
+            What You&apos;ll Master<br /><em>In 100 Days!</em>
           </h2>
         </RevealWrapper>
 

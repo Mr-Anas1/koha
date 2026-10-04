@@ -52,9 +52,9 @@ export default function JourneySection() {
       <AnimatedBackground variant="dark" />
       <div className="journey__header container">
         <RevealWrapper animation="fade-up">
-          <p className="label label--light">The structured path</p>
+          <p className="label label--light">🚀 YOUR 5-STEP TRANSFORMATION</p>
           <h2 className="section-title section-title--light">
-            From Your First Stitch...<br /><em>To Your Own Fashion Journey.</em>
+            From Complete Beginner<br /><em>To Fashion Business Owner!</em>
           </h2>
         </RevealWrapper>
       </div>

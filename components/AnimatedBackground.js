@@ -1,8 +1,8 @@
 'use client';
 
 /**
- * AnimatedBackground — subtle animated gradient background
- * Adds a soft, elegant gradient animation to create depth and movement
+ * AnimatedBackground — vibrant animated gradient background
+ * Adds dynamic, eye-catching gradient animation for sales pages
  *
  * Props:
  *   variant?: 'hero' | 'dark' | 'light' — color variant
@@ -20,6 +20,7 @@ export default function AnimatedBackground({ variant = 'hero', className = '' })
       <div className="animated-bg__blob animated-bg__blob--1" />
       <div className="animated-bg__blob animated-bg__blob--2" />
       <div className="animated-bg__blob animated-bg__blob--3" />
+      <div className="animated-bg__blob animated-bg__blob--4" />
     </div>
   );
 }
