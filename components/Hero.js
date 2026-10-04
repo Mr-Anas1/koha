@@ -33,9 +33,9 @@ export default function Hero() {
 
         <RevealWrapper animation="fade-up" delayMs={100}>
           <h1 className="hero__headline">
-            BECOME A FASHION<br />
-            <em>ENTREPRENEUR</em><br />
-            IN JUST 100 DAYS!
+            Learn Fashion Designing &amp;<br />
+            <em>Start Building Your Own</em><br />
+            Boutique in Just 100 Days
           </h1>
         </RevealWrapper>
 
@@ -70,23 +70,23 @@ export default function Hero() {
           </div>
         </RevealWrapper>
 
-        {/* Badges */}
+        {/* CTA - Moved under video */}
         <RevealWrapper animation="fade-up" delayMs={400}>
-          <div className="hero__badges">
-            <div className="badge"><CheckIcon /><span>🎁 50+ Item Free Fashion Kit</span></div>
-            <div className="badge"><CheckIcon /><span>📜 Government E-Certificate</span></div>
-            <div className="badge"><CheckIcon /><span>⭐ 12+ Year Cine Costume Designer</span></div>
-          </div>
-        </RevealWrapper>
-
-        {/* CTA */}
-        <RevealWrapper animation="fade-up" delayMs={500}>
           <CountdownTimer deadline={deadline} label="🔥 LIMITED TIME OFFER ENDS IN" />
           <div className="hero__actions">
             <a href="#pricing" className="btn btn--primary btn--large" id="hero-cta-primary">
-              🔥 START MY JOURNEY NOW →
+              � START MY JOURNEY NOW →
             </a>
             <p className="hero__footnote">⚡ 100+ Students Already Enrolled &nbsp;·&nbsp; Only 12 Seats Left &nbsp;·&nbsp; This Week Only</p>
+          </div>
+        </RevealWrapper>
+
+        {/* Badges */}
+        <RevealWrapper animation="fade-up" delayMs={500}>
+          <div className="hero__badges">
+            <div className="badge"><CheckIcon /><span>🎁 50+ Item Free Fashion Kit</span></div>
+            <div className="badge"><CheckIcon /><span>� Government E-Certificate</span></div>
+            <div className="badge"><CheckIcon /><span>⭐ 12+ Year Cine Costume Designer</span></div>
           </div>
         </RevealWrapper>
 
