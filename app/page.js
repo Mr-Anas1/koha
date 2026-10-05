@@ -1,5 +1,4 @@
 // app/page.js — Server Component (root page)
-import Nav              from '@/components/Nav';
 import Hero             from '@/components/Hero';
 import ProblemSection   from '@/components/ProblemSection';
 import JourneySection   from '@/components/JourneySection';
@@ -17,7 +16,6 @@ import Footer           from '@/components/Footer';
 export default function Page() {
   return (
     <>
-      <Nav />
       <main>
         <Hero />
         <ProblemSection />
