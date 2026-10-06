@@ -28,14 +28,20 @@ export default function Hero() {
 
         {/* Big Heading */}
         <RevealWrapper animation="fade-up" delayMs={0}>
-          <p className="label label--light hero__label">🔥 100-DAY TRANSFORMATION PROGRAM &nbsp;·&nbsp; LIVE ONLINE &nbsp;·&nbsp; LIMITED SEATS</p>
+          <div className="hero__attention-box">
+            <span className="hero__attention-bullet">●</span>
+            <span className="hero__attention-text">
+              100-DAY TRANSFORMATION PROGRAM &nbsp;·<br />
+              LIVE ONLINE &nbsp;·&nbsp; LIMITED SEATS
+            </span>
+          </div>
         </RevealWrapper>
 
         <RevealWrapper animation="fade-up" delayMs={100}>
           <h1 className="hero__headline">
             Learn Fashion Designing &amp;<br />
             <em>Start Building Your Own</em><br />
-            Boutique in Just 100 Days
+            Boutique In Just 100 Days..
           </h1>
         </RevealWrapper>
 

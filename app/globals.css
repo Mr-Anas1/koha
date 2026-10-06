@@ -359,9 +359,32 @@ ul { list-style: none; }
               radial-gradient(ellipse at bottom left, rgba(0, 229, 255, 0.1) 0%, transparent 50%);
   pointer-events: none;
 }
-.hero__label {
-  text-align: center;
-  margin-bottom: 1.5rem;
+.hero__attention-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--clr-border);
+  border-radius: 50px;
+  background: rgba(10, 10, 26, 0.6);
+  margin: 0 auto 1.5rem;
+}
+
+.hero__attention-bullet {
+  color: var(--clr-gold);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.hero__attention-text {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--clr-gold);
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.4;
 }
 .hero__headline {
   font-family: var(--font-display);
@@ -1347,8 +1370,8 @@ ul { list-style: none; }
   .nav__link { font-size: 1rem; letter-spacing: 0.1em; }
   .nav__cta-link { padding: 0.75rem 2rem; }
 
-  .hero { padding-top: 5rem; padding-bottom: 3rem; }
-  .hero__headline { font-size: 25px !important; max-width: 100%; }
+  .hero { padding-top: calc(var(--nav-h) + 2rem); padding-bottom: 3rem; }
+  .hero__headline { font-size: clamp(1.2rem, 6.5vw, 25px) !important; max-width: 100%; }
   .hero__subtext { font-size: 1rem; margin-bottom: 1.5rem; }
   .hero__video-wrapper { margin-bottom: 2rem; }
   .hero__badges { gap: 0.5rem; }
@@ -1397,7 +1420,7 @@ ul { list-style: none; }
   .curriculum__module-title { font-size: 1.6rem; }
   .pricing__offer-price { font-size: 3rem; }
 
-  .hero { padding-top: calc(var(--nav-h) + 5rem); padding-bottom: 3rem; }
+  .hero { padding-top: calc(var(--nav-h) + 1rem); padding-bottom: 3rem; }
   .hero__video-wrapper { margin-bottom: 2rem; }
   .hero__subtext { font-size: 0.95rem; margin-bottom: 1.5rem; }
   .hero__badges { gap: 0.5rem; }
