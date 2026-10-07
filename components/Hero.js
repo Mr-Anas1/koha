@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="hero__attention-box">
             <span className="hero__attention-bullet">●</span>
             <span className="hero__attention-text">
-              100-DAY TRANSFORMATION PROGRAM &nbsp;·<br />
+              100-DAY TRANSFORMATION PROGRAM &nbsp;·
               LIVE ONLINE &nbsp;·&nbsp; LIMITED SEATS
             </span>
           </div>
@@ -39,7 +39,7 @@ export default function Hero() {
 
         <RevealWrapper animation="fade-up" delayMs={100}>
           <h1 className="hero__headline">
-            Learn Fashion Designing &amp;<br />
+            Learn Fashion Designing <br />
             <em>Start Building Your Own</em><br />
             Boutique In Just 100 Days..
           </h1>

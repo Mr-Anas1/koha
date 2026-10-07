@@ -27,7 +27,7 @@
   --font-sans:       var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
 
   --max-w:           1200px;
-  --max-w-narrow:    780px;
+  --max-w-narrow:    960px;
   --nav-h:           72px;
 
   --ease-smooth:     cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -79,6 +79,7 @@ ul { list-style: none; }
 
 .container--narrow {
   max-width: var(--max-w-narrow);
+  padding-inline: clamp(1rem, 3vw, 2rem);
 }
 
 .label {
@@ -360,10 +361,12 @@ ul { list-style: none; }
   pointer-events: none;
 }
 .hero__attention-box {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 0.6rem 2rem;
+  gap: 1.2rem;
+  padding: 0.8rem 2rem;
   border: 1px solid var(--clr-border);
   border-radius: 50px;
   background: rgba(10, 10, 26, 0.6);
@@ -383,28 +386,23 @@ ul { list-style: none; }
   letter-spacing: 0.1em;
   color: var(--clr-gold);
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   line-height: 1.4;
 }
 .hero__headline {
   font-family: var(--font-display);
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.01em;
   color: var(--clr-white);
-  margin-bottom: 1.6rem;
   text-transform: uppercase;
   text-shadow: 0 0 30px rgba(0, 229, 255, 0.3);
   text-align: center;
-  padding: 0 1rem;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media (min-width: 768px) {
-  .hero__headline { font-size: 53px; }
+  .hero__headline { font-size: 40px; }
 }
 .hero__headline em { font-style: italic; color: var(--clr-gold); }
 .hero__subtext {
@@ -413,7 +411,7 @@ ul { list-style: none; }
   line-height: 1.6;
   max-width: 50ch;
   margin: 0 auto 2rem;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   padding: 0 1rem;
 }
